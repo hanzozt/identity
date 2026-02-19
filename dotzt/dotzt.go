@@ -14,7 +14,7 @@
 	limitations under the License.
 */
 
-package dotziti
+package dotzt
 
 import (
 	"errors"
@@ -37,7 +37,7 @@ func LoadIdentity(name string) (string, *identity.TokenId, error) {
 		if err != nil {
 			return "", nil, err
 		}
-		idPath = filepath.Join(home, ".ziti/identities.yml")
+		idPath = filepath.Join(home, ".zt/identities.yml")
 	}
 
 	_, err = os.Stat(idPath)

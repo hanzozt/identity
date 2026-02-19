@@ -25,17 +25,17 @@ import (
 */
 
 const (
-	TestValueCert       = "./ziti/etc/ca/intermediate/certs/ctrl-client.cert.pem"
-	TestValueKey        = "./ziti/etc/ca/intermediate/private/ctrl.key.pem"
-	TestValueServerCert = "./ziti/etc/ca/intermediate/certs/ctrl-server.cert.pem"
-	TestValueServerKey  = "./ziti/etc/ca/intermediate/certs/ctrl-server.key.pem"
-	TestValueCa         = "./ziti/etc/ca/intermediate/certs/ca-chain.cert.pem"
+	TestValueCert       = "./zt/etc/ca/intermediate/certs/ctrl-client.cert.pem"
+	TestValueKey        = "./zt/etc/ca/intermediate/private/ctrl.key.pem"
+	TestValueServerCert = "./zt/etc/ca/intermediate/certs/ctrl-server.cert.pem"
+	TestValueServerKey  = "./zt/etc/ca/intermediate/certs/ctrl-server.key.pem"
+	TestValueCa         = "./zt/etc/ca/intermediate/certs/ca-chain.cert.pem"
 
-	TestValueAltServerCert01 = "./ziti/etc/ca/intermediate/certs/alt01-ctrl-server.cert.pem"
-	TestValueAltServerKey01  = "./ziti/etc/ca/intermediate/certs/alt01-ctrl-server.key.pem"
+	TestValueAltServerCert01 = "./zt/etc/ca/intermediate/certs/alt01-ctrl-server.cert.pem"
+	TestValueAltServerKey01  = "./zt/etc/ca/intermediate/certs/alt01-ctrl-server.key.pem"
 
-	TestValueAltServerCert02 = "./ziti/etc/ca/intermediate/certs/alt02-ctrl-server.cert.pem"
-	TestValueAltServerKey02  = "./ziti/etc/ca/intermediate/certs/alt02-ctrl-server.key.pem"
+	TestValueAltServerCert02 = "./zt/etc/ca/intermediate/certs/alt02-ctrl-server.cert.pem"
+	TestValueAltServerKey02  = "./zt/etc/ca/intermediate/certs/alt02-ctrl-server.key.pem"
 
 	TestValuePathContext = "my.path"
 
