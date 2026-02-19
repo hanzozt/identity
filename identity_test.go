@@ -639,7 +639,7 @@ func mkCaCert(cn string) (crypto.Signer, *x509.Certificate) {
 	cert := &x509.Certificate{
 		SerialNumber: big.NewInt(testSerial),
 		Subject: pkix.Name{
-			Organization:       []string{"OpenZiti Identity Tests"},
+			Organization:       []string{"Hanzo ZT Identity Tests"},
 			OrganizationalUnit: []string{"CA Certs"},
 			CommonName:         cn,
 		},
@@ -664,7 +664,7 @@ func mkServerAndClientCert(cn string, dns []string) (crypto.Signer, *x509.Certif
 	cert := &x509.Certificate{
 		SerialNumber: big.NewInt(testSerial),
 		Subject: pkix.Name{
-			Organization:       []string{"OpenZiti Identity Tests"},
+			Organization:       []string{"Hanzo ZT Identity Tests"},
 			OrganizationalUnit: []string{"Server And Client Certs"},
 			CommonName:         cn,
 		},
@@ -687,7 +687,7 @@ func mkServerCert(cn string, dns []string, ips []net.IP) (crypto.Signer, *x509.C
 	cert := &x509.Certificate{
 		SerialNumber: big.NewInt(testSerial),
 		Subject: pkix.Name{
-			Organization:       []string{"OpenZiti Identity Tests"},
+			Organization:       []string{"Hanzo ZT Identity Tests"},
 			OrganizationalUnit: []string{"Server Certs"},
 			CommonName:         cn,
 		},
@@ -709,7 +709,7 @@ func mkClientCert(cn string) (crypto.Signer, *x509.Certificate) {
 	cert := &x509.Certificate{
 		SerialNumber: big.NewInt(testSerial),
 		Subject: pkix.Name{
-			Organization:       []string{"OpenZiti Identity Tests"},
+			Organization:       []string{"Hanzo ZT Identity Tests"},
 			OrganizationalUnit: []string{"Client Certs"},
 			CommonName:         cn,
 		},

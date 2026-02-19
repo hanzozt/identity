@@ -19,7 +19,7 @@ package dotziti
 import (
 	"errors"
 	"fmt"
-	"github.com/openziti/identity"
+	"github.com/hanzozt/identity"
 	"gopkg.in/yaml.v3"
 	"os"
 	"path/filepath"

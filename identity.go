@@ -31,8 +31,8 @@ import (
 	"time"
 
 	"github.com/michaelquigley/pfxlog"
-	"github.com/openziti/foundation/v2/tlz"
-	"github.com/openziti/identity/certtools"
+	"github.com/hanzozt/foundation/v2/tlz"
+	"github.com/hanzozt/identity/certtools"
 	"github.com/pkg/errors"
 	"github.com/sirupsen/logrus"
 )
