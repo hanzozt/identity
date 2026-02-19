@@ -1,7 +1,7 @@
 Ziti Identity library
 ---------------------
 
-This library is an attempt to normalize identity configuration for various ziti components. 
+This library is an attempt to normalize identity configuration for various zt components. 
 
 # Configuration
 

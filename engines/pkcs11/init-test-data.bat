@@ -22,6 +22,6 @@ mkdir softhsm-testdata
 SET SOFTHSM2_CONF=softhsm2.conf
 
 echo on
-softhsm2-util --init-token --free --label 'ziti-test-token' --so-pin %pin% --pin %pin%
-"c:\Program Files\OpenSC Project\OpenSC\tools\pkcs11-tool.exe" --module %lib% -p %pin% -k --key-type rsa:2048 --id 01 --label ziti-rsa-key
-"c:\Program Files\OpenSC Project\OpenSC\tools\pkcs11-tool.exe" --module %lib% -p %pin% -k --key-type EC:prime256v1 --id 02 --label ziti-ecdsa-key
+softhsm2-util --init-token --free --label 'zt-test-token' --so-pin %pin% --pin %pin%
+"c:\Program Files\OpenSC Project\OpenSC\tools\pkcs11-tool.exe" --module %lib% -p %pin% -k --key-type rsa:2048 --id 01 --label zt-rsa-key
+"c:\Program Files\OpenSC Project\OpenSC\tools\pkcs11-tool.exe" --module %lib% -p %pin% -k --key-type EC:prime256v1 --id 02 --label zt-ecdsa-key
