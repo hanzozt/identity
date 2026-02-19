@@ -19,11 +19,11 @@ package certtools
 import (
 	"crypto"
 	"fmt"
-	"github.com/openziti/identity/engines"
+	"github.com/hanzozt/identity/engines"
 	"net/url"
 
-	_ "github.com/openziti/identity/engines/parsec"
-	_ "github.com/openziti/identity/engines/pkcs11"
+	_ "github.com/hanzozt/identity/engines/parsec"
+	_ "github.com/hanzozt/identity/engines/pkcs11"
 )
 
 func LoadEngineKey(engine string, addr *url.URL) (crypto.PrivateKey, error) {
